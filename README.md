@@ -43,39 +43,47 @@ Follow these steps to run the project locally:
 ```bash
 git clone https://github.com/Hrishik03/MedIntel.git
 cd MedIntel
-2️⃣ Create a virtual environment
+```
+### 2️⃣ Create a virtual environment
+```bash
 python -m venv venv
-
-3️⃣ Activate the environment
+```
+### 3️⃣ Activate the environment
 
 Windows:
-
+```bash
 venv\Scripts\activate
-
+```
 
 macOS/Linux:
-
+```bash
 source venv/bin/activate
+```
 
-4️⃣ Install dependencies
+### 4️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-5️⃣ Set up your environment variables
+### 5️⃣ Set up your environment variables
 
 Create a .env file in the project root and add your Gemini API key:
-
+```bash
 GEMINI_API_KEY=your_google_gemini_api_key_here
+```
 
-6️⃣ Run the app
+###6️⃣ Run the app
+```bash
 streamlit run app.py
+```
 
-7️⃣ Open in browser
+### 7️⃣ Open in browser
 
 Once Streamlit starts, it will open automatically at:
-
+```bash
 http://localhost:8501
-
-⚠️ Disclaimer
+```
+**⚠️ Disclaimer**
 
 This application is for educational and informational purposes only.
 It does not replace professional medical advice, diagnosis, or treatment.
