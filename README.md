@@ -72,7 +72,7 @@ Create a .env file in the project root and add your Gemini API key:
 GEMINI_API_KEY=your_google_gemini_api_key_here
 ```
 
-###6️⃣ Run the app
+### 6️⃣ Run the app
 ```bash
 streamlit run app.py
 ```
